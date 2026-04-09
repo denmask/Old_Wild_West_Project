@@ -84,95 +84,109 @@
         "image": "images/classicfillet.png"
     },
     {
-        "name": "Patatine Classiche",
-        "description": "Croccanti patatine fritte",
-        "price": 3.50,
-        "category": "contorni",
-        "image": "images/patatine-classiche.jpg"
-    },
-    {
-        "name": "Patatine Cheese & Bacon",
-        "description": "Patatine con cheddar fuso e bacon croccante",
-        "price": 5.90,
-        "category": "contorni",
-        "image": "images/patatine-cheese-bacon.jpg"
-    },
-    {
-        "name": "Anelli di Cipolla",
-        "description": "Onion rings croccanti con salsa ranch",
+        "name": "Fries",
+        "description": "Patate* fritte e salsa OWW",
         "price": 4.50,
         "category": "contorni",
-        "image": "images/anelli-cipolla.jpg"
-    },
-    {
-        "name": "Nachos Supreme",
-        "description": "Nachos con guacamole, pico de gallo e formaggio",
-        "price": 6.90,
-        "category": "contorni",
-        "image": "images/nachos-supreme.jpg"
+        "image": "images/fries.png"
     },
     {
         "name": "Patate al Forno",
-        "description": "Patate arrosto con rosmarino",
-        "price": 3.90,
+        "description": "Aromatizzate al rosmarino",
+        "price": 4.00,
         "category": "contorni",
-        "image": "images/patate-forno.jpg"
+        "image": "images/patateforno.png"
     },
     {
-        "name": "Caesar Salad",
-        "description": "Lattuga romana, crostini, parmigiano e dressing caesar",
+        "name": "Onion Rings",
+        "description": "Anelli di cipolla* pastellati e fritti, serviti con salsa Barbecue (8 pezzi)",
+        "price": 5.40,
+        "category": "contorni",
+        "image": "images/onionrings.png"
+    },
+    {
+        "name": "Gringos Nachos",
+        "description": "Triangolini di mais caldi guarniti con mix di formaggi, salsa Cheddar e pico de gallo serviti con mix di salse (Guacamole, Messicana e Sauce Cream)",
         "price": 7.90,
-        "category": "insalate",
-        "image": "images/caesar-salad.jpg"
+        "category": "contorni",
+        "image": "images/gringosnachos.png"
     },
     {
-        "name": "Chicken Salad",
-        "description": "Insalata mista con pollo grigliato, pomodorini e vinaigrette",
-        "price": 9.50,
-        "category": "insalate",
-        "image": "images/chicken-salad.jpg"
+        "name": "Chicken Wrap",
+        "description": "Tortilla di grano farcita con Strips di pollo* extra croccante, bacon, pomodoro, salsa cheddar, insalata, salsa Special servite con patate* Fries e salsa OWW",
+        "price": 11.90,
+        "category": "contorni",
+        "image": "images/chickenwrap.png"
     },
     {
-        "name": "Greek Salad",
-        "description": "Insalata greca con feta, olive, cetrioli e pomodori",
-        "price": 8.50,
-        "category": "insalate",
-        "image": "images/greek-salad.jpg"
+        "name": "Galletto OWW",
+        "description": "Galletto* Italiano alla griglia, accuratamente speziato, servito con patate* Fries, salsa OWW e un crostino di pane*. Ti piace piccante? Provalo con la salsa al peperoncino Chipotle",
+        "price": 18.00,
+        "category": "contorni",
+        "image": "images/gallettoOWW.png"
     },
     {
-        "name": "Brownie al Cioccolato",
-        "description": "Brownie caldo con gelato alla vaniglia",
+        "name": "Arizona Caesar Salad",
+        "description": "Insalata mista, petto di pollo* sfilacciato, crostini di pane*, scaglie di Parmigiano Reggiano DOP e salsa Caesar",
+        "price": 7.00,
+        "category": "insalate",
+        "image": "images/arizonacaesarsalad.png"
+    },
+    {
+        "name": "Kentucky Crispy Salad",
+        "description": "Insalata mista, bacon, cotoletta di pollo* panata, salsa Caesar, nachos e pomodorini datterino",
+        "price": 11.40,
+        "category": "insalate",
+        "image": "images/kentucky.png"
+    },
+    {
+        "name": "Beef Salad",
+        "description": "Insalata mista, rucola, manzo, zucchine al forno, pomodorini datterino, cappuccio rosso condito e crostini di pane*",
+        "price": 13.80,
+        "category": "insalate",
+        "image": "images/beefsalad.png"
+    },
+    {
+        "name": "Caramel Brownie",
+        "description": "Torta* al cioccolato, accompagnata da gelato al fiordilatte e topping al caramello salato",
         "price": 5.50,
         "category": "dessert",
-        "image": "images/brownie.jpg"
+        "image": "images/cbrownie.png"
     },
     {
-        "name": "Cheesecake",
-        "description": "Cheesecake New York style con frutti di bosco",
-        "price": 6.50,
+        "name": "Cheesecake Caramello",
+        "description": "Cremosa Cheesecake* guarnita con topping al caramello salato e topping alle arachidi",
+        "price": 6.00,
         "category": "dessert",
-        "image": "images/cheesecake.jpg"
+        "image": "images/cheesecakecara.png"
     },
     {
-        "name": "Apple Pie",
-        "description": "Torta di mele americana con gelato",
-        "price": 5.90,
+        "name": "Cheesecake Pistacchio",
+        "description": "Cremosa Cheesecake* guarnita con crema al pistacchio, topping al cioccolato, granella di pistacchio",
+        "price": 6.00,
         "category": "dessert",
-        "image": "images/apple-pie.jpg"
+        "image": "images/cheesecakepista.png"
     },
     {
         "name": "Tiramisù",
         "description": "Tiramisù fatto in casa",
-        "price": 5.50,
+        "price": 6.00,
         "category": "dessert",
-        "image": "images/tiramisu.jpg"
+        "image": "images/tiramisu.png"
     },
     {
-        "name": "Panna Cotta",
-        "description": "Panna cotta con coulis di fragole",
-        "price": 5.00,
+        "name": "Coppa Alaska",
+        "description": "Gelato al fiordilatte con Nutella®, cioccolato croccante, panna montata, topping al cioccolato e granella di nocciole ",
+        "price": 6.00,
         "category": "dessert",
-        "image": "images/panna-cotta.jpg"
+        "image": "images/coppalaska.png"
+    },
+    {
+        "name": "Sorbetto",
+        "description": "Sorbetto alla frutta.",
+        "price": 3.50,
+        "category": "dessert",
+        "image": "images/sorbetto.png"
     },
     {
         "name": "Coca Cola",
