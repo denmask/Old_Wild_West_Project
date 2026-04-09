@@ -23,7 +23,6 @@ async function loadRestaurantsData() {
 
 function displayMenuItems() {
     const categories = ['burger', 'steaks', 'contorni', 'insalate', 'dessert', 'bevande', 'aperitivi'];
-    
     categories.forEach(category => {
         const container = document.getElementById(`${category}-items`);
         if (container) {
@@ -34,9 +33,21 @@ function displayMenuItems() {
 }
 
 function createMenuItem(item) {
+    const isBevanda = item.category === 'bevande' || item.category === 'aperitivi';
+    const imgHeight = isBevanda ? '160px' : '220px';
+    const imgFit = isBevanda ? 'contain' : 'cover';
+    const imgBg = isBevanda ? '#f8f8f8' : '#1a1a1a';
+
     return `
-        <div class="menu-item">
-            <img src="${item.image}" alt="${item.name}" style="width:100%;height:auto;border-radius:8px;display:block;">
+        <div class="menu-item${isBevanda ? ' menu-item--drink' : ''}">
+            <div class="menu-item-img-wrap" style="height:${imgHeight};background:${imgBg};overflow:hidden;border-radius:8px 8px 0 0;">
+                <img
+                    src="${item.image}"
+                    alt="${item.name}"
+                    style="width:100%;height:100%;object-fit:${imgFit};display:block;"
+                    loading="lazy"
+                >
+            </div>
             <div class="menu-item-content">
                 <h3 class="menu-item-name">${item.name}</h3>
                 <p class="menu-item-desc">${item.description}</p>
@@ -55,7 +66,7 @@ function displayRegions() {
     const regionsList = document.getElementById('regions-list');
     if (regionsList && restaurantsData.length > 0) {
         const regions = Object.keys(restaurantsData[0]);
-        regionsList.innerHTML = regions.map(region => 
+        regionsList.innerHTML = regions.map(region =>
             `<button class="region-btn" onclick="showRestaurants('${region}')">${region}</button>`
         ).join('');
     }
@@ -65,7 +76,7 @@ function displayRegions() {
 function showRestaurants(region) {
     const restaurantsList = document.getElementById('restaurants-list');
     const restaurants = restaurantsData[0][region];
-    
+
     if (restaurantsList && restaurants) {
         restaurantsList.innerHTML = restaurants.map(restaurant => `
             <div class="restaurant-card">
@@ -78,7 +89,7 @@ function showRestaurants(region) {
             </div>
         `).join('');
     }
-    
+
     document.querySelectorAll('.region-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
 }
@@ -86,16 +97,16 @@ function showRestaurants(region) {
 function searchLocation() {
     const searchTerm = document.getElementById('location-search').value.toLowerCase();
     const allRestaurants = [];
-    
+
     Object.values(restaurantsData[0]).forEach(restaurants => {
         restaurants.forEach(r => {
-            if (r.name.toLowerCase().includes(searchTerm) || 
+            if (r.name.toLowerCase().includes(searchTerm) ||
                 r.address.toLowerCase().includes(searchTerm)) {
                 allRestaurants.push(r);
             }
         });
     });
-    
+
     const restaurantsList = document.getElementById('restaurants-list');
     if (restaurantsList) {
         restaurantsList.innerHTML = allRestaurants.map(restaurant => `
@@ -120,9 +131,9 @@ function populateRestaurantSelect() {
                 allRestaurants.push({ region, ...r });
             });
         });
-        
-        select.innerHTML = '<option value="">Scegli un ristorante</option>' + 
-            allRestaurants.map(r => 
+
+        select.innerHTML = '<option value="">Scegli un ristorante</option>' +
+            allRestaurants.map(r =>
                 `<option value="${r.name}">${r.name} - ${r.region}</option>`
             ).join('');
     }
@@ -130,7 +141,7 @@ function populateRestaurantSelect() {
 
 function submitBooking(event) {
     event.preventDefault();
-    
+
     const formData = {
         restaurant: document.getElementById('restaurant-select').value,
         date: document.getElementById('booking-date').value,
@@ -141,10 +152,10 @@ function submitBooking(event) {
         phone: document.getElementById('booking-phone').value,
         notes: document.getElementById('booking-notes').value
     };
-    
+
     const modal = document.getElementById('confirmation-modal');
     const summary = document.getElementById('booking-summary');
-    
+
     summary.innerHTML = `
         <p><strong>Ristorante:</strong> ${formData.restaurant}</p>
         <p><strong>Data:</strong> ${formData.date}</p>
@@ -152,9 +163,8 @@ function submitBooking(event) {
         <p><strong>Persone:</strong> ${formData.people}</p>
         <p><strong>Nome:</strong> ${formData.name}</p>
     `;
-    
+
     modal.classList.add('active');
-    
     return false;
 }
 
@@ -165,13 +175,8 @@ function closeConfirmation() {
 }
 
 function showTab(tabName) {
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    
+    document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
     document.getElementById(`${tabName}-tab`).classList.add('active');
     event.target.classList.add('active');
 }
