@@ -193,7 +193,7 @@
         "description": "Coca Cola Spina 0.5L",
         "price": 4.50,
         "category": "bevande",
-        "image": "images/cocacola0.5.png"
+        "image": "images/cocacola05.png"
     },
     {
         "name": "Coca Cola Spina 0.33L",
@@ -207,14 +207,14 @@
         "description": "Fanta Spina 0.5L",
         "price": 4.50,
         "category": "bevande",
-        "image": "images/fanta0.5.png"
+        "image": "images/fanta05.png"
     },
     {
         "name": "Fanta Spina 0.33L",
         "description": "Fanta Spina 0.33L",
         "price": 3.50,
         "category": "bevande",
-        "image": "images/fanta0.33.png"
+        "image": "images/fanta03.png"
     },
     {
         "name": "Sprite",
