@@ -1,0 +1,289 @@
+[
+    {
+        "name": "New York Smash Burger",
+        "description": "Panino con semi di sesamo*, doppio hamburger* di carne italiana, salsa Cheddar, bacon, pomodoro, salsa OWW, insalata iceberg e cetriolini, accompagnato da patate* Fries e salsa OWW",
+        "price": 14.50,
+        "category": "burger",
+        "image": "images/nysmashburger.png"
+    },
+    {
+        "name": "BBQ Burger",
+        "description": "Panino*, hamburger*, bacon, mix di formaggi fusi, Onion Rings*, insalata iceberg e salsa Barbecue, servito con patate* Fries e salsa Barbecue",
+        "price": 13.00,
+        "category": "burger",
+        "image": "images/bbqburger.png"
+    },
+    {
+        "name": "Toro Seduto Burger",
+        "description": "Panino*, doppio hamburger*, doppio formaggio fuso, doppio bacon, servito con patate* Fries, cipolla rossa e salsa OWW  ",
+        "price": 16.40,
+        "category": "burger",
+        "image": "images/toroseduto.png"
+    },
+    {
+        "name": "Crazy Burger",
+        "description": "Panino con semi di sesamo*, hamburger*, formaggio Cheddar affumicato, bacon, Korean sauce, insalata iceberg, cappuccio rosso condito e maionese, servito con patate* Fries e salsa OWW",
+        "price": 13.80,
+        "category": "burger",
+        "image": "images/crazy.png"
+    },
+    {
+        "name": "Crunchy Chicken",
+        "description": "Panino*, strips di pollo* extra croccante, bacon, pomodoro, salsa cheddar, insalata iceberg, salsa Special servito con patate* Fries e salsa OWW ",
+        "price": 12.50,
+        "category": "burger",
+        "image": "images/crunchy.png"
+    },
+    {
+        "name": "American Burger",
+        "description": "Panino con semi di sesamo*, hamburger*, formaggio fuso con Cheddar, bacon, pomodoro, insalata iceberg e salsa Ketchup, servito con patate* Fries e salsa OWW",
+        "price": 12.40,
+        "category": "burger",
+        "image": "images/american.png"
+    },
+    {
+        "name": "Rump Steak XL",
+        "description": "Manzo alla griglia, servito su letto di rucola e accompagnato con patate* Fries e salsa OWW",
+        "price": 19.80,
+        "category": "steaks",
+        "image": "images/rumpsteak.png"
+    },
+    {
+        "name": "Rib-Eye",
+        "description": "Entrecôte di manzo alla griglia, servita con patate* Fries e salsa OWW",
+        "price": 18.50,
+        "category": "steaks",
+        "image": "images/rib-eye.png"
+    },
+    {
+        "name": "Black Pepper Fillet",
+        "description": "Tagliata di filetto di manzo alla griglia aromatizzato con mix di pepi, rosmarino e fiocchi di sale, servito su letto di rucola e accompagnato con patate al forno",
+        "price": 23.50,
+        "category": "steaks",
+        "image": "images/blackpepper.png"
+    },
+    {
+        "name": "Cheyenne Chicken",
+        "description": "Petto di pollo* alla griglia con bacon croccante, servito con patate* Fries e salsa OWW",
+        "price": 12.80,
+        "category": "steaks",
+        "image": "images/cheyenne.png"
+    },
+    {
+        "name": "Chicken Legends",
+        "description": "Petto di pollo marinato alla griglia",
+        "price": 14.90,
+        "category": "steaks",
+        "image": "images/chickenlegends.png"
+    },
+    {
+        "name": "Classic Fillet",
+        "description": "Filetto di manzo alla griglia accompagnato da patate al forno",
+        "price": 21.80,
+        "category": "steaks",
+        "image": "images/classicfillet.png"
+    },
+    {
+        "name": "Patatine Classiche",
+        "description": "Croccanti patatine fritte",
+        "price": 3.50,
+        "category": "contorni",
+        "image": "images/patatine-classiche.jpg"
+    },
+    {
+        "name": "Patatine Cheese & Bacon",
+        "description": "Patatine con cheddar fuso e bacon croccante",
+        "price": 5.90,
+        "category": "contorni",
+        "image": "images/patatine-cheese-bacon.jpg"
+    },
+    {
+        "name": "Anelli di Cipolla",
+        "description": "Onion rings croccanti con salsa ranch",
+        "price": 4.50,
+        "category": "contorni",
+        "image": "images/anelli-cipolla.jpg"
+    },
+    {
+        "name": "Nachos Supreme",
+        "description": "Nachos con guacamole, pico de gallo e formaggio",
+        "price": 6.90,
+        "category": "contorni",
+        "image": "images/nachos-supreme.jpg"
+    },
+    {
+        "name": "Patate al Forno",
+        "description": "Patate arrosto con rosmarino",
+        "price": 3.90,
+        "category": "contorni",
+        "image": "images/patate-forno.jpg"
+    },
+    {
+        "name": "Caesar Salad",
+        "description": "Lattuga romana, crostini, parmigiano e dressing caesar",
+        "price": 7.90,
+        "category": "insalate",
+        "image": "images/caesar-salad.jpg"
+    },
+    {
+        "name": "Chicken Salad",
+        "description": "Insalata mista con pollo grigliato, pomodorini e vinaigrette",
+        "price": 9.50,
+        "category": "insalate",
+        "image": "images/chicken-salad.jpg"
+    },
+    {
+        "name": "Greek Salad",
+        "description": "Insalata greca con feta, olive, cetrioli e pomodori",
+        "price": 8.50,
+        "category": "insalate",
+        "image": "images/greek-salad.jpg"
+    },
+    {
+        "name": "Brownie al Cioccolato",
+        "description": "Brownie caldo con gelato alla vaniglia",
+        "price": 5.50,
+        "category": "dessert",
+        "image": "images/brownie.jpg"
+    },
+    {
+        "name": "Cheesecake",
+        "description": "Cheesecake New York style con frutti di bosco",
+        "price": 6.50,
+        "category": "dessert",
+        "image": "images/cheesecake.jpg"
+    },
+    {
+        "name": "Apple Pie",
+        "description": "Torta di mele americana con gelato",
+        "price": 5.90,
+        "category": "dessert",
+        "image": "images/apple-pie.jpg"
+    },
+    {
+        "name": "Tiramisù",
+        "description": "Tiramisù fatto in casa",
+        "price": 5.50,
+        "category": "dessert",
+        "image": "images/tiramisu.jpg"
+    },
+    {
+        "name": "Panna Cotta",
+        "description": "Panna cotta con coulis di fragole",
+        "price": 5.00,
+        "category": "dessert",
+        "image": "images/panna-cotta.jpg"
+    },
+    {
+        "name": "Coca Cola",
+        "description": "Coca Cola 0.33L",
+        "price": 3.00,
+        "category": "bevande",
+        "image": "images/coca-cola.jpg"
+    },
+    {
+        "name": "Fanta",
+        "description": "Fanta 0.33L",
+        "price": 3.00,
+        "category": "bevande",
+        "image": "images/fanta.jpg"
+    },
+    {
+        "name": "Sprite",
+        "description": "Sprite 0.33L",
+        "price": 3.00,
+        "category": "bevande",
+        "image": "images/sprite.jpg"
+    },
+    {
+        "name": "Birra Heineken",
+        "description": "Birra Heineken 0.33L",
+        "price": 4.50,
+        "category": "bevande",
+        "image": "images/heineken.jpg"
+    },
+    {
+        "name": "Birra Corona",
+        "description": "Birra Corona 0.33L",
+        "price": 5.00,
+        "category": "bevande",
+        "image": "images/corona.jpg"
+    },
+    {
+        "name": "Acqua Naturale",
+        "description": "Acqua naturale 0.5L",
+        "price": 2.00,
+        "category": "bevande",
+        "image": "images/acqua-naturale.jpg"
+    },
+    {
+        "name": "Acqua Frizzante",
+        "description": "Acqua frizzante 0.5L",
+        "price": 2.00,
+        "category": "bevande",
+        "image": "images/acqua-frizzante.jpg"
+    },
+    {
+        "name": "Caffè Espresso",
+        "description": "Caffè espresso italiano",
+        "price": 1.50,
+        "category": "bevande",
+        "image": "images/caffe-espresso.jpg"
+    },
+    {
+        "name": "Cappuccino",
+        "description": "Cappuccino cremoso",
+        "price": 2.50,
+        "category": "bevande",
+        "image": "images/cappuccino.jpg"
+    },
+    {
+        "name": "Limoncello",
+        "description": "Limoncello artigianale 4cl",
+        "price": 4.00,
+        "category": "bevande",
+        "image": "images/limoncello.jpg"
+    },
+    {
+        "name": "Margarita",
+        "description": "Tequila, triple sec, lime",
+        "price": 7.50,
+        "category": "aperitivi",
+        "image": "images/margarita.jpg"
+    },
+    {
+        "name": "Mojito",
+        "description": "Rum bianco, lime, menta, soda",
+        "price": 7.50,
+        "category": "aperitivi",
+        "image": "images/mojito.jpg"
+    },
+    {
+        "name": "Spritz Aperol",
+        "description": "Aperol, prosecco, soda",
+        "price": 6.50,
+        "category": "aperitivi",
+        "image": "images/spritz-aperol.jpg"
+    },
+    {
+        "name": "Negroni",
+        "description": "Gin, vermouth rosso, Campari",
+        "price": 8.00,
+        "category": "aperitivi",
+        "image": "images/negroni.jpg"
+    },
+    {
+        "name": "Long Island",
+        "description": "Mix di spirits con cola",
+        "price": 8.50,
+        "category": "aperitivi",
+        "image": "images/long-island.jpg"
+    },
+    {
+        "name": "Daiquiri",
+        "description": "Rum bianco, lime, zucchero",
+        "price": 7.00,
+        "category": "aperitivi",
+        "image": "images/daiquiri.jpg"
+    }
+]

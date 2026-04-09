@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Old Wild West</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>OLD WILD WEST</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active">Menu</a>
+                <a href="ordina.html" class="nav-link">Ordina Online</a>
+                <a href="prenota.html" class="nav-link">Prenota Tavolo</a>
+                <a href="rewards.html" class="nav-link">Rewards</a>
+                <a href="kids.html" class="nav-link">Kids</a>
+                <a href="ristoranti.html" class="nav-link">Ristoranti</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Accedi</a>
+                <div class="cart-icon" onclick="toggleCart()">
+                    🛒 <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h1>Il Nostro Menu</h1>
+        <p>Scopri i sapori autentici dell'America</p>
+    </section>
+
+    <div class="menu-categories">
+        <div class="container">
+            <div class="category-nav">
+                <a href="#burger" class="category-btn">Burger</a>
+                <a href="#steaks" class="category-btn">Steaks</a>
+                <a href="#contorni" class="category-btn">Contorni</a>
+                <a href="#insalate" class="category-btn">Insalate</a>
+                <a href="#dessert" class="category-btn">Dessert</a>
+                <a href="#bevande" class="category-btn">Bevande</a>
+                <a href="#aperitivi" class="category-btn">Aperitivi</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="burger" class="menu-section">
+            <h2 class="menu-section-title">🍔 Burger</h2>
+            <div id="burger-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="steaks" class="menu-section">
+            <h2 class="menu-section-title">🥩 Steaks</h2>
+            <div id="steaks-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="contorni" class="menu-section">
+            <h2 class="menu-section-title">🍟 Contorni</h2>
+            <div id="contorni-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="insalate" class="menu-section">
+            <h2 class="menu-section-title">🥗 Insalate</h2>
+            <div id="insalate-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="dessert" class="menu-section">
+            <h2 class="menu-section-title">🍰 Dessert</h2>
+            <div id="dessert-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="bevande" class="menu-section">
+            <h2 class="menu-section-title">🥤 Bevande</h2>
+            <div id="bevande-items" class="menu-items-grid"></div>
+        </section>
+
+        <section id="aperitivi" class="menu-section">
+            <h2 class="menu-section-title">🍸 Aperitivi & Cocktail</h2>
+            <div id="aperitivi-items" class="menu-items-grid"></div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Old Wild West</h4>
+                    <p>La più grande catena di steakhouse americane in Italia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link Utili</h4>
+                    <a href="menu.html">Menu</a>
+                    <a href="ristoranti.html">Trova Ristorante</a>
+                    <a href="rewards.html">Programma Fedeltà</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>Email: info@oldwildwest.it</p>
+                    <p>Tel: 800-123-456</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Old Wild West. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Il Tuo Carrello</h3>
+            <button onclick="toggleCart()" class="close-cart">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Totale:</span>
+                <span id="cart-total">€0.00</span>
+            </div>
+            <a href="ordina.html" class="btn btn-primary btn-block">Vai al Checkout</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

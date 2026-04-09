@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Kids - Old Wild West</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>OLD WILD WEST</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="ordina.html" class="nav-link">Ordina Online</a>
+                <a href="prenota.html" class="nav-link">Prenota Tavolo</a>
+                <a href="rewards.html" class="nav-link">Rewards</a>
+                <a href="kids.html" class="nav-link active">Kids</a>
+                <a href="ristoranti.html" class="nav-link">Ristoranti</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Accedi</a>
+                <div class="cart-icon" onclick="toggleCart()">
+                    🛒 <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="kids-hero">
+        <div class="container">
+            <h1>👨‍👩‍👧‍👦 Menu Kids</h1>
+            <p>Piatti deliziosi pensati apposta per i più piccoli!</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="kids-features">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🍔</div>
+                    <h3>Porzioni Perfette</h3>
+                    <p>Dimensioni giuste per i bambini</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥗</div>
+                    <h3>Ingredienti Sani</h3>
+                    <p>Solo prodotti freschi e di qualità</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Giochi Inclusi</h3>
+                    <p>Menu con attività e sorprese</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Prezzi Convenienti</h3>
+                    <p>Menu completi da €6.90</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-menu-section">
+            <h2 class="section-title">Menu Completi Kids</h2>
+            <div class="kids-menu-grid">
+                <div class="kids-menu-card">
+                    <div class="kids-menu-img"></div>
+                    <h3>Mini Burger Menu</h3>
+                    <p>Mini burger + patatine + bevanda + gelato</p>
+                    <div class="price">€6.90</div>
+                    <button class="btn btn-primary" onclick="addToCart('Mini Burger Menu', 6.90, 'kids')">Aggiungi</button>
+                </div>
+                <div class="kids-menu-card">
+                    <div class="kids-menu-img"></div>
+                    <h3>Chicken Nuggets Menu</h3>
+                    <p>Nuggets di pollo + patatine + bevanda + gelato</p>
+                    <div class="price">€6.90</div>
+                    <button class="btn btn-primary" onclick="addToCart('Chicken Nuggets Menu', 6.90, 'kids')">Aggiungi</button>
+                </div>
+                <div class="kids-menu-card">
+                    <div class="kids-menu-img"></div>
+                    <h3>Hot Dog Menu</h3>
+                    <p>Hot dog + patatine + bevanda + gelato</p>
+                    <div class="price">€6.50</div>
+                    <button class="btn btn-primary" onclick="addToCart('Hot Dog Menu', 6.50, 'kids')">Aggiungi</button>
+                </div>
+                <div class="kids-menu-card">
+                    <div class="kids-menu-img"></div>
+                    <h3>Pasta al Pomodoro Menu</h3>
+                    <p>Pasta al pomodoro + bevanda + gelato</p>
+                    <div class="price">€5.90</div>
+                    <button class="btn btn-primary" onclick="addToCart('Pasta al Pomodoro Menu', 5.90, 'kids')">Aggiungi</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-extras">
+            <h2 class="section-title">Extra per i Piccoli</h2>
+            <div class="extras-grid">
+                <div class="extra-card">
+                    <h4>Frutta Fresca</h4>
+                    <p>€2.00</p>
+                    <button class="btn btn-sm" onclick="addToCart('Frutta Fresca', 2.00, 'kids')">+</button>
+                </div>
+                <div class="extra-card">
+                    <h4>Yogurt</h4>
+                    <p>€1.50</p>
+                    <button class="btn btn-sm" onclick="addToCart('Yogurt', 1.50, 'kids')">+</button>
+                </div>
+                <div class="extra-card">
+                    <h4>Succo di Frutta</h4>
+                    <p>€2.00</p>
+                    <button class="btn btn-sm" onclick="addToCart('Succo di Frutta', 2.00, 'kids')">+</button>
+                </div>
+                <div class="extra-card">
+                    <h4>Gelato Extra</h4>
+                    <p>€2.50</p>
+                    <button class="btn btn-sm" onclick="addToCart('Gelato Extra', 2.50, 'kids')">+</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="kids-info">
+            <div class="info-boxes">
+                <div class="info-box">
+                    <h3>🎈 Feste di Compleanno</h3>
+                    <p>Organizziamo feste indimenticabili per i tuoi bambini! Pacchetti speciali con menu dedicato, decorazioni e animazione.</p>
+                    <a href="prenota.html" class="btn btn-secondary">Richiedi Info</a>
+                </div>
+                <div class="info-box">
+                    <h3>👶 Servizi per Famiglie</h3>
+                    <ul>
+                        <li>Seggioloni disponibili</li>
+                        <li>Fasciatoio nei bagni</li>
+                        <li>Area giochi in alcuni ristoranti</li>
+                        <li>Menù allergie disponibile</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Old Wild West</h4>
+                    <p>La più grande catena di steakhouse americane in Italia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link Utili</h4>
+                    <a href="menu.html">Menu</a>
+                    <a href="ristoranti.html">Trova Ristorante</a>
+                    <a href="rewards.html">Programma Fedeltà</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>Email: info@oldwildwest.it</p>
+                    <p>Tel: 800-123-456</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Old Wild West. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Il Tuo Carrello</h3>
+            <button onclick="toggleCart()" class="close-cart">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Totale:</span>
+                <span id="cart-total">€0.00</span>
+            </div>
+            <a href="ordina.html" class="btn btn-primary btn-block">Vai al Checkout</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

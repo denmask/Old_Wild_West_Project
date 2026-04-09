@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Wild West - Steakhouse Americana</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>OLD WILD WEST</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="ordina.html" class="nav-link">Ordina Online</a>
+                <a href="prenota.html" class="nav-link">Prenota Tavolo</a>
+                <a href="rewards.html" class="nav-link">Rewards</a>
+                <a href="kids.html" class="nav-link">Kids</a>
+                <a href="ristoranti.html" class="nav-link">Ristoranti</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Accedi</a>
+                <div class="cart-icon" onclick="toggleCart()">
+                    🛒 <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Benvenuti nel Selvaggio West</h2>
+            <p class="hero-subtitle">Autentica esperienza americana con i migliori burger e steaks</p>
+            <div class="hero-buttons">
+                <a href="ordina.html" class="btn btn-primary">Ordina Ora</a>
+                <a href="prenota.html" class="btn btn-secondary">Prenota Tavolo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-preview">
+        <div class="container">
+            <h2 class="section-title">Il Nostro Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-img"></div>
+                    <h3>Burger</h3>
+                    <p>I più succulenti burger americani</p>
+                    <a href="menu.html#burger" class="btn-link">Scopri</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-img"></div>
+                    <h3>Steaks</h3>
+                    <p>Carne alla griglia di alta qualità</p>
+                    <a href="menu.html#steaks" class="btn-link">Scopri</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-img"></div>
+                    <h3>Patatine</h3>
+                    <p>Croccanti e irresistibili</p>
+                    <a href="menu.html#contorni" class="btn-link">Scopri</a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-img"></div>
+                    <h3>Bevande</h3>
+                    <p>Cocktail, birre e soft drinks</p>
+                    <a href="menu.html#bevande" class="btn-link">Scopri</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rewards-banner">
+        <div class="container">
+            <div class="rewards-content">
+                <h2>Old Wild West Rewards</h2>
+                <p>Accumula punti ad ogni ordine e goditi vantaggi esclusivi!</p>
+                <a href="rewards.html" class="btn btn-gold">Scopri i Vantaggi</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-card">
+                    <div class="cta-icon">🍔</div>
+                    <h3>Ordina Online</h3>
+                    <p>Ricevi il tuo ordine a casa in 30 minuti</p>
+                    <a href="ordina.html" class="btn btn-primary">Ordina Ora</a>
+                </div>
+                <div class="cta-card">
+                    <div class="cta-icon">📅</div>
+                    <h3>Prenota Tavolo</h3>
+                    <p>Scegli data, ora e numero di persone</p>
+                    <a href="prenota.html" class="btn btn-primary">Prenota</a>
+                </div>
+                <div class="cta-card">
+                    <div class="cta-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Menu Kids</h3>
+                    <p>Piatti speciali per i più piccoli</p>
+                    <a href="kids.html" class="btn btn-primary">Scopri</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Old Wild West</h4>
+                    <p>La più grande catena di steakhouse americane in Italia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link Utili</h4>
+                    <a href="menu.html">Menu</a>
+                    <a href="ristoranti.html">Trova Ristorante</a>
+                    <a href="rewards.html">Programma Fedeltà</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>Email: info@oldwildwest.it</p>
+                    <p>Tel: 800-123-456</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Old Wild West. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Il Tuo Carrello</h3>
+            <button onclick="toggleCart()" class="close-cart">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Totale:</span>
+                <span id="cart-total">€0.00</span>
+            </div>
+            <a href="ordina.html" class="btn btn-primary btn-block">Vai al Checkout</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

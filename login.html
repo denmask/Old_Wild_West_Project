@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accedi - Old Wild West</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>OLD WILD WEST</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="ordina.html" class="nav-link">Ordina Online</a>
+                <a href="prenota.html" class="nav-link">Prenota Tavolo</a>
+                <a href="rewards.html" class="nav-link">Rewards</a>
+                <a href="kids.html" class="nav-link">Kids</a>
+                <a href="ristoranti.html" class="nav-link">Ristoranti</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('login')">Accedi</button>
+                <button class="tab-btn" onclick="showTab('register')">Registrati</button>
+            </div>
+
+            <div id="login-tab" class="tab-content active">
+                <h2>Bentornato!</h2>
+                <p>Accedi al tuo account Old Wild West</p>
+                
+                <form onsubmit="return handleLogin(event)">
+                    <div class="form-group">
+                        <label>Email o Username</label>
+                        <input type="text" required placeholder="mario.rossi@email.it">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required placeholder="••••••••">
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            <span>Ricordami</span>
+                        </label>
+                        <a href="#" class="forgot-link">Password dimenticata?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Accedi</button>
+                </form>
+                
+                <div class="social-login">
+                    <p>Oppure accedi con</p>
+                    <div class="social-buttons">
+                        <button class="btn-social facebook">Facebook</button>
+                        <button class="btn-social google">Google</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="register-tab" class="tab-content">
+                <h2>Crea Account</h2>
+                <p>Registrati per accedere a tutti i vantaggi</p>
+                
+                <form onsubmit="return handleRegister(event)">
+                    <div class="form-group">
+                        <label>Nome Completo</label>
+                        <input type="text" required placeholder="Mario Rossi">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required placeholder="mario.rossi@email.it">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Telefono</label>
+                        <input type="tel" required placeholder="+39 333 1234567">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required placeholder="••••••••">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Conferma Password</label>
+                        <input type="password" required placeholder="••••••••">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox">
+                            <input type="checkbox" required>
+                            <span>Accetto i <a href="#">Termini e Condizioni</a></span>
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            <span>Voglio ricevere offerte e novità via email</span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Registrati</button>
+                </form>
+                
+                <div class="register-benefits">
+                    <h4>Vantaggi dell'iscrizione:</h4>
+                    <ul>
+                        <li>✓ 50 punti di benvenuto</li>
+                        <li>✓ Offerte esclusive</li>
+                        <li>✓ Ordini più veloci</li>
+                        <li>✓ Storico ordini</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Old Wild West</h4>
+                    <p>La più grande catena di steakhouse americane in Italia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link Utili</h4>
+                    <a href="menu.html">Menu</a>
+                    <a href="ristoranti.html">Trova Ristorante</a>
+                    <a href="rewards.html">Programma Fedeltà</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>Email: info@oldwildwest.it</p>
+                    <p>Tel: 800-123-456</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Old Wild West. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

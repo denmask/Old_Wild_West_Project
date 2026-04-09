@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristoranti - Old Wild West</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>OLD WILD WEST</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="ordina.html" class="nav-link">Ordina Online</a>
+                <a href="prenota.html" class="nav-link">Prenota Tavolo</a>
+                <a href="rewards.html" class="nav-link">Rewards</a>
+                <a href="kids.html" class="nav-link">Kids</a>
+                <a href="ristoranti.html" class="nav-link active">Ristoranti</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Accedi</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h1>Trova il Ristorante più Vicino</h1>
+        <p>Oltre 100 ristoranti in tutta Italia</p>
+    </section>
+
+    <div class="container">
+        <div class="search-section">
+            <input type="text" id="location-search" placeholder="Cerca per città o regione..." onkeyup="searchLocation()">
+        </div>
+
+        <div class="restaurants-layout">
+            <div class="regions-sidebar">
+                <h3>Seleziona Regione</h3>
+                <div id="regions-list" class="regions-list"></div>
+            </div>
+
+            <div class="restaurants-content">
+                <div class="map-container">
+                    <div class="italy-map">
+                        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+                            <text x="200" y="300" text-anchor="middle" font-size="24" fill="#666">
+                                Mappa Italia
+                            </text>
+                            <text x="200" y="330" text-anchor="middle" font-size="14" fill="#999">
+                                Clicca su una regione nella lista
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div id="restaurants-list" class="restaurants-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="restaurant-features">
+        <div class="container">
+            <h2 class="section-title">I Nostri Ristoranti Offrono</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🚗</div>
+                    <h4>Parcheggio Gratuito</h4>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">♿</div>
+                    <h4>Accessibile</h4>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌳</div>
+                    <h4>Area Esterna</h4>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📶</div>
+                    <h4>Wi-Fi Gratuito</h4>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">👶</div>
+                    <h4>Family Friendly</h4>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎉</div>
+                    <h4>Eventi & Feste</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Old Wild West</h4>
+                    <p>La più grande catena di steakhouse americane in Italia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Link Utili</h4>
+                    <a href="menu.html">Menu</a>
+                    <a href="ristoranti.html">Trova Ristorante</a>
+                    <a href="rewards.html">Programma Fedeltà</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>Email: info@oldwildwest.it</p>
+                    <p>Tel: 800-123-456</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Old Wild West. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
