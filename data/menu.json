@@ -189,74 +189,89 @@
         "image": "images/sorbetto.png"
     },
     {
-        "name": "Coca Cola",
-        "description": "Coca Cola 0.33L",
-        "price": 3.00,
+        "name": "Coca Cola Spina 0.5L",
+        "description": "Coca Cola Spina 0.5L",
+        "price": 4.50,
         "category": "bevande",
-        "image": "images/coca-cola.jpg"
+        "image": "images/cocacola0.5.png"
     },
     {
-        "name": "Fanta",
-        "description": "Fanta 0.33L",
-        "price": 3.00,
+        "name": "Coca Cola Spina 0.33L",
+        "description": "Coca Cola Spina 0.33L",
+        "price": 3.50,
         "category": "bevande",
-        "image": "images/fanta.jpg"
+        "image": "images/cocacola03.png"
+    },
+    {
+        "name": "Fanta Spina 0.5L",
+        "description": "Fanta Spina 0.5L",
+        "price": 4.50,
+        "category": "bevande",
+        "image": "images/fanta0.5.png"
+    },
+    {
+        "name": "Fanta Spina 0.33L",
+        "description": "Fanta Spina 0.33L",
+        "price": 3.50,
+        "category": "bevande",
+        "image": "images/fanta0.33.png"
     },
     {
         "name": "Sprite",
         "description": "Sprite 0.33L",
         "price": 3.00,
         "category": "bevande",
-        "image": "images/sprite.jpg"
-    },
-    {
-        "name": "Birra Heineken",
-        "description": "Birra Heineken 0.33L",
-        "price": 4.50,
-        "category": "bevande",
-        "image": "images/heineken.jpg"
+        "image": "images/sprite.png"
     },
     {
         "name": "Birra Corona",
         "description": "Birra Corona 0.33L",
         "price": 5.00,
         "category": "bevande",
-        "image": "images/corona.jpg"
+        "image": "images/corona.png"
+    },
+    {
+        "name": "Birra Peroni",
+        "description": "Birra Peroni Bott 0.33L",
+        "price": 5.00,
+        "category": "bevande",
+        "image": "images/peroni.png"
     },
     {
         "name": "Acqua Naturale",
         "description": "Acqua naturale 0.5L",
-        "price": 2.00,
+        "price": 1.80,
         "category": "bevande",
-        "image": "images/acqua-naturale.jpg"
+        "image": "images/acquanaturale.png"
     },
     {
         "name": "Acqua Frizzante",
         "description": "Acqua frizzante 0.5L",
         "price": 2.00,
         "category": "bevande",
-        "image": "images/acqua-frizzante.jpg"
+        "image": "images/acquafrizzante.png"
+    },
+    {
+        "name": "Chianti",
+        "description": "Chianti Classico 0.375L",
+        "price": 6.50,
+        "category": "bevande",
+        "image": "images/chianti.png"
     },
     {
         "name": "Caffè Espresso",
         "description": "Caffè espresso italiano",
-        "price": 1.50,
-        "category": "bevande",
-        "image": "images/caffe-espresso.jpg"
-    },
-    {
-        "name": "Cappuccino",
-        "description": "Cappuccino cremoso",
         "price": 2.50,
         "category": "bevande",
-        "image": "images/cappuccino.jpg"
+        "image": "images/caffeespresso.png"
     },
+    
     {
         "name": "Limoncello",
         "description": "Limoncello artigianale 4cl",
         "price": 4.00,
         "category": "bevande",
-        "image": "images/limoncello.jpg"
+        "image": "images/limoncello.png"
     },
     {
         "name": "Margarita",
