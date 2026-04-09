@@ -40,24 +40,30 @@
         <div class="restaurants-layout">
             <div class="regions-sidebar">
                 <h3>Seleziona Regione</h3>
-                <div id="regions-list" class="regions-list"></div>
+                <div id="regions-list" class="regions-list">
+                    <div class="region-item">
+                        <a href="#" onclick="filterRegion('Puglia')">Puglia</a>
+                    </div>
+                </div>
             </div>
 
             <div class="restaurants-content">
-                <div class="map-container">
-                    <div class="italy-map">
-                        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
-                            <text x="200" y="300" text-anchor="middle" font-size="24" fill="#666">
-                                Mappa Italia
-                            </text>
-                            <text x="200" y="330" text-anchor="middle" font-size="14" fill="#999">
-                                Clicca su una regione nella lista
-                            </text>
-                        </svg>
-                    </div>
+                <div class="map-container" style="background: #f9f9f9; border-radius: 15px; overflow: hidden; text-align: center;">
+                    <img src="images/mappaitalia.png" alt="Mappa Italia" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                 </div>
 
-                <div id="restaurants-list" class="restaurants-grid"></div>
+                <div id="restaurants-list" class="restaurants-grid">
+                    <div class="restaurant-card">
+                        <img src="images/ristorante-bari.png" alt="Old Wild West Bari" style="width:100%; height:200px; object-fit:cover; border-radius: 10px 10px 0 0;">
+                        <div class="restaurant-info" style="padding: 15px;">
+                            <h4>Old Wild West Bari</h4>
+                            <p>📍 Via Sparano, 80 - Bari</p>
+                            <p>📞 080 1234 567</p>
+                            <p>🕒 Orari: 12:00-23:00</p>
+                            <a href="prenota.html" class="btn btn-primary" style="display: block; text-align: center; margin-top: 10px;">Prenota</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
