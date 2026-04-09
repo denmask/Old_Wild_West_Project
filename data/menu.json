@@ -278,41 +278,41 @@
         "description": "Tequila, triple sec, lime",
         "price": 7.50,
         "category": "aperitivi",
-        "image": "images/margarita.jpg"
+        "image": "images/margarita.png"
     },
     {
         "name": "Mojito",
         "description": "Rum bianco, lime, menta, soda",
         "price": 7.50,
         "category": "aperitivi",
-        "image": "images/mojito.jpg"
+        "image": "images/mojito.png"
     },
     {
         "name": "Spritz Aperol",
         "description": "Aperol, prosecco, soda",
         "price": 6.50,
         "category": "aperitivi",
-        "image": "images/spritz-aperol.jpg"
+        "image": "images/spritzaperol.png"
     },
     {
         "name": "Negroni",
         "description": "Gin, vermouth rosso, Campari",
         "price": 8.00,
         "category": "aperitivi",
-        "image": "images/negroni.jpg"
+        "image": "images/negroni.png"
     },
     {
         "name": "Long Island",
         "description": "Mix di spirits con cola",
         "price": 8.50,
         "category": "aperitivi",
-        "image": "images/long-island.jpg"
+        "image": "images/longisland.png"
     },
     {
         "name": "Daiquiri",
         "description": "Rum bianco, lime, zucchero",
         "price": 7.00,
         "category": "aperitivi",
-        "image": "images/daiquiri.jpg"
+        "image": "images/daiquiri.png"
     }
 ]
