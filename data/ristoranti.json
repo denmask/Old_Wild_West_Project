@@ -2,172 +2,130 @@
     {
         "Lombardia": [
             {
-                "name": "Old Wild West Milano Duomo",
-                "address": "Corso Vittorio Emanuele II, 30 - Milano",
-                "phone": "02 1234 5678",
+                "name": "Old Wild West Milano Navigli",
+                "address": "Viale Gorizia, 18 - Milano",
+                "phone": "02 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-milano-duomo.jpg"
+                "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80"
             },
             {
-                "name": "Old Wild West Milano Loreto",
-                "address": "Piazza Loreto, 15 - Milano",
-                "phone": "02 2345 6789",
+                "name": "Old Wild West Milano Bicocca",
+                "address": "Viale Sarca, 336 - Milano",
+                "phone": "02 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-milano-loreto.jpg"
-            },
-            {
-                "name": "Old Wild West Bergamo",
-                "address": "Via XX Settembre, 45 - Bergamo",
-                "phone": "035 1234 567",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-bergamo.jpg"
-            },
-            {
-                "name": "Old Wild West Brescia",
-                "address": "Via Mantova, 23 - Brescia",
-                "phone": "030 1234 567",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-brescia.jpg"
+                "image": "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=800&q=80"
             }
         ],
         "Lazio": [
             {
-                "name": "Old Wild West Roma Termini",
-                "address": "Via Marsala, 50 - Roma",
-                "phone": "06 1234 5678",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-roma-termini.jpg"
+                "name": "Old Wild West Roma Prati",
+                "address": "Via Cola di Rienzo, 45 - Roma",
+                "phone": "06 1234 567",
+                "hours": "12:00-23:30",
+                "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80"
             },
             {
-                "name": "Old Wild West Roma Colosseo",
-                "address": "Via dei Fori Imperiali, 12 - Roma",
-                "phone": "06 2345 6789",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-roma-colosseo.jpg"
-            },
-            {
-                "name": "Old Wild West Roma EUR",
-                "address": "Viale Europa, 80 - Roma",
-                "phone": "06 3456 7890",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-roma-eur.jpg"
+                "name": "Old Wild West Roma Cinecittà",
+                "address": "Via Tuscolana, 1055 - Roma",
+                "phone": "06 9876 543",
+                "hours": "12:00-23:30",
+                "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80"
             }
         ],
         "Veneto": [
             {
                 "name": "Old Wild West Venezia Mestre",
-                "address": "Via Torino, 15 - Mestre VE",
+                "address": "Via Miranese, 14 - Mestre (VE)",
                 "phone": "041 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-venezia-mestre.jpg"
+                "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80"
             },
             {
                 "name": "Old Wild West Verona",
-                "address": "Via Roma, 42 - Verona",
-                "phone": "045 1234 567",
+                "address": "Via Unità d'Italia, 100 - Verona",
+                "phone": "045 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-verona.jpg"
-            },
-            {
-                "name": "Old Wild West Padova",
-                "address": "Corso Milano, 33 - Padova",
-                "phone": "049 1234 567",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-padova.jpg"
+                "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
             }
         ],
         "Piemonte": [
             {
-                "name": "Old Wild West Torino Centro",
-                "address": "Via Roma, 150 - Torino",
+                "name": "Old Wild West Torino Lingotto",
+                "address": "Via Nizza, 262 - Torino",
                 "phone": "011 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-torino-centro.jpg"
+                "image": "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?w=800&q=80"
             },
             {
-                "name": "Old Wild West Torino Lingotto",
-                "address": "Via Nizza, 250 - Torino",
-                "phone": "011 2345 678",
+                "name": "Old Wild West Torino Porta Nuova",
+                "address": "Corso Vittorio Emanuele II, 58 - Torino",
+                "phone": "011 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-torino-lingotto.jpg"
+                "image": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=800&q=80"
             }
         ],
         "Emilia-Romagna": [
             {
-                "name": "Old Wild West Bologna",
-                "address": "Via Indipendenza, 25 - Bologna",
+                "name": "Old Wild West Bologna Centro",
+                "address": "Via dell'Indipendenza, 22 - Bologna",
                 "phone": "051 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-bologna.jpg"
-            },
-            {
-                "name": "Old Wild West Modena",
-                "address": "Via Emilia, 120 - Modena",
-                "phone": "059 1234 567",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-modena.jpg"
+                "image": "https://images.unsplash.com/photo-1559564484-a2296d24ee77?w=800&q=80"
             },
             {
                 "name": "Old Wild West Rimini",
-                "address": "Viale Vespucci, 30 - Rimini",
-                "phone": "0541 123 456",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-rimini.jpg"
+                "address": "Viale Vespucci, 80 - Rimini",
+                "phone": "0541 9876 543",
+                "hours": "12:00-24:00",
+                "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
             }
         ],
         "Toscana": [
             {
                 "name": "Old Wild West Firenze",
-                "address": "Via dei Calzaiuoli, 50 - Firenze",
+                "address": "Viale dei Mille, 7 - Firenze",
                 "phone": "055 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-firenze.jpg"
+                "image": "https://images.unsplash.com/photo-1541370976299-4d24be63bc39?w=800&q=80"
             },
             {
                 "name": "Old Wild West Pisa",
-                "address": "Corso Italia, 80 - Pisa",
-                "phone": "050 1234 567",
+                "address": "Via Bonaini, 15 - Pisa",
+                "phone": "050 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-pisa.jpg"
+                "image": "https://images.unsplash.com/photo-1568951994654-577979f4e851?w=800&q=80"
             }
         ],
         "Campania": [
             {
-                "name": "Old Wild West Napoli Centro",
-                "address": "Via Toledo, 155 - Napoli",
-                "phone": "081 1234 567",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-napoli-centro.jpg"
-            },
-            {
                 "name": "Old Wild West Napoli Vomero",
-                "address": "Via Scarlatti, 90 - Napoli",
-                "phone": "081 2345 678",
-                "hours": "12:00-23:00",
-                "image": "images/ristorante-napoli-vomero.jpg"
+                "address": "Via Scarlatti, 100 - Napoli",
+                "phone": "081 1234 567",
+                "hours": "12:00-23:30",
+                "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=800&q=80"
             },
             {
                 "name": "Old Wild West Salerno",
-                "address": "Corso Vittorio Emanuele, 45 - Salerno",
-                "phone": "089 1234 567",
+                "address": "Corso Vittorio Emanuele, 23 - Salerno",
+                "phone": "089 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-salerno.jpg"
+                "image": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee?w=800&q=80"
             }
         ],
         "Sicilia": [
             {
                 "name": "Old Wild West Palermo",
-                "address": "Via Maqueda, 100 - Palermo",
+                "address": "Via Libertà, 55 - Palermo",
                 "phone": "091 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-palermo.jpg"
+                "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=80"
             },
             {
                 "name": "Old Wild West Catania",
-                "address": "Via Etnea, 250 - Catania",
-                "phone": "095 1234 567",
+                "address": "Via Etnea, 120 - Catania",
+                "phone": "095 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-catania.jpg"
+                "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80"
             }
         ],
         "Puglia": [
@@ -176,23 +134,23 @@
                 "address": "Via Sparano, 80 - Bari",
                 "phone": "080 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-bari.jpg"
+                "image": "https://images.unsplash.com/photo-1594804615905-d4bc18e0d30b?w=800&q=80"
             },
             {
                 "name": "Old Wild West Lecce",
-                "address": "Viale Oronzo Quarta, 25 - Lecce",
-                "phone": "0832 123 456",
+                "address": "Via Trinchese, 61 - Lecce",
+                "phone": "0832 9876 543",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-lecce.jpg"
+                "image": "https://images.unsplash.com/photo-1571406252241-db0280bd36cd?w=800&q=80"
             }
         ],
         "Liguria": [
             {
                 "name": "Old Wild West Genova",
-                "address": "Via XX Settembre, 40 - Genova",
+                "address": "Via XX Settembre, 33 - Genova",
                 "phone": "010 1234 567",
                 "hours": "12:00-23:00",
-                "image": "images/ristorante-genova.jpg"
+                "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80"
             }
         ]
     }

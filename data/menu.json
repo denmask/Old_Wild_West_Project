@@ -15,7 +15,7 @@
     },
     {
         "name": "Toro Seduto Burger",
-        "description": "Panino*, doppio hamburger*, doppio formaggio fuso, doppio bacon, servito con patate* Fries, cipolla rossa e salsa OWW  ",
+        "description": "Panino*, doppio hamburger*, doppio formaggio fuso, doppio bacon, servito con patate* Fries, cipolla rossa e salsa OWW",
         "price": 16.40,
         "category": "burger",
         "image": "images/toroseduto.png"
@@ -29,7 +29,7 @@
     },
     {
         "name": "Crunchy Chicken",
-        "description": "Panino*, strips di pollo* extra croccante, bacon, pomodoro, salsa cheddar, insalata iceberg, salsa Special servito con patate* Fries e salsa OWW ",
+        "description": "Panino*, strips di pollo* extra croccante, bacon, pomodoro, salsa cheddar, insalata iceberg, salsa Special servito con patate* Fries e salsa OWW",
         "price": 12.50,
         "category": "burger",
         "image": "images/crunchy.png"
@@ -120,7 +120,7 @@
     },
     {
         "name": "Galletto OWW",
-        "description": "Galletto* Italiano alla griglia, accuratamente speziato, servito con patate* Fries, salsa OWW e un crostino di pane*. Ti piace piccante? Provalo con la salsa al peperoncino Chipotle",
+        "description": "Galletto* Italiano alla griglia, accuratamente speziato, servito con patate* Fries, salsa OWW e un crostino di pane*",
         "price": 18.00,
         "category": "contorni",
         "image": "images/gallettoOWW.png"
@@ -176,7 +176,7 @@
     },
     {
         "name": "Coppa Alaska",
-        "description": "Gelato al fiordilatte con Nutella®, cioccolato croccante, panna montata, topping al cioccolato e granella di nocciole ",
+        "description": "Gelato al fiordilatte con Nutella®, cioccolato croccante, panna montata, topping al cioccolato e granella di nocciole",
         "price": 6.00,
         "category": "dessert",
         "image": "images/coppalaska.png"
@@ -265,7 +265,6 @@
         "category": "bevande",
         "image": "images/caffeespresso.png"
     },
-    
     {
         "name": "Limoncello",
         "description": "Limoncello artigianale 4cl",

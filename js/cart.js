@@ -188,7 +188,7 @@ function displayOrderItems(category) {
     
     container.innerHTML = items.map(item => `
         <div class="menu-item">
-            <div class="menu-item-img"></div>
+            <img src="${item.image}" alt="${item.name}" style="width:100%;height:220px;object-fit:cover;border-radius:8px 8px 0 0;display:block;">
             <div class="menu-item-content">
                 <h3 class="menu-item-name">${item.name}</h3>
                 <p class="menu-item-desc">${item.description}</p>
@@ -225,7 +225,7 @@ function searchItems() {
     
     container.innerHTML = filteredItems.map(item => `
         <div class="menu-item">
-            <div class="menu-item-img"></div>
+            <img src="${item.image}" alt="${item.name}" style="width:100%;height:220px;object-fit:cover;border-radius:8px 8px 0 0;display:block;">
             <div class="menu-item-content">
                 <h3 class="menu-item-name">${item.name}</h3>
                 <p class="menu-item-desc">${item.description}</p>
